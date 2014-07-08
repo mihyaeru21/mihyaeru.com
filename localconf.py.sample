@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+
+# Remote server configuration
+production = 'hoge@hoge.com:22'
+dest_path = '/var/www'
+
