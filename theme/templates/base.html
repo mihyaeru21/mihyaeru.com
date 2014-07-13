@@ -4,7 +4,7 @@
   {% block head %}
     <meta charset="utf-8" />
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-    {% assets filters="compass", output="css/style.css", "style.scss" %}
+    {% assets filters="compass", output="css/style.css", "style.scss", "pygment.scss" %}
       <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
 
