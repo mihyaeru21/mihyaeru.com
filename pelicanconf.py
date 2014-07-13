@@ -34,3 +34,9 @@ RELATIVE_URLS = True
 
 THEME = 'theme'
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['assets']
+
+ASSET_SOURCE_PATHS = (
+    'scss',
+)
