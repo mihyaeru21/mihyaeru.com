@@ -7,6 +7,7 @@ from __future__ import unicode_literals
 ########################################
 
 SITENAME = u'みひゃえるどっとこむ'
+BLOGNAME = u'みひゃろぐ'
 SITEURL  = u'http://mihyaeru.com'
 AUTHOR   = u'Mihyaeru'
 

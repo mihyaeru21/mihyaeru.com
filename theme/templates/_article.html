@@ -1,0 +1,14 @@
+<article class="article">
+  <header>
+    <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+    <abbr class="published_at" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+  </header>
+
+  {% block article_content %}
+    <div class="article_content"> {{ article.summary }} </div>
+  {% endblock %}
+
+  <footer>
+    そーしゃる系のボタン
+  </footer>
+</article>

@@ -2,17 +2,14 @@
 
 {% block content %}
   <div id="content">
-    <h2>最近の記事</h2>
+    <h2>tag: {{ tag }}</h2>
 
     <ul id="article_list">
-      {% for article in articles_page.object_list %}
+      {% for article in articles %}
         <li>
-          {% include "_article.html" %}
+          <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
         </li>
       {% endfor %}
     </ul>
-
-    {% include 'pagination.html' %}
-
   </div>
 {% endblock content %}
